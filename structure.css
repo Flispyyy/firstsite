@@ -1,0 +1,174 @@
+.header{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line{
+    padding-top: 12p;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-item{
+    font-family: 'Silkscreen', sans-serif;
+    color: rgb(20, 199, 230);
+    text-decoration: none;
+    font-weight:700;
+    font-size: 50px;
+}
+
+.nav-item{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    margin-right: 15px;
+    transition: color 0.2s linear; /*плавность анимки наведения*/
+}
+
+
+.nav-item:hover{  /* изменение при наведении*/
+    color: rgb(20, 199, 230);
+}
+
+.header-down{
+    position: relative;
+}
+
+.header-title{
+    color:rgb(20, 199, 230);
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    padding: 0 200px;
+    margin-top: 300px;
+}
+
+.page1{
+    background-image: url(page11.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page{
+    color:yellow;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.worksPC-item{
+    margin-left: 300px;
+}
+.perviy{
+    height: 20%;
+    width: 20%;
+    margin-top: 15px;
+}
+
+.vtoroy{
+    height: 20%;
+    width: 20%;
+    margin-left: 20px
+}
+
+.tretiy{
+    height: 20%;
+    width: 20%;
+    margin-left: 20px
+}
+
+.chetvertiy{
+    height: 20%;
+    width: 20%;
+    margin-left: 20px
+}
+
+.pyatiy{
+    height: 20%;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.chestoiy{
+    height: 20%;
+    width: 20%;
+    margin-left: 20px
+}
+
+.sedmoiy{
+    height: 20%;
+    width: 20%;
+    margin-left: 20px
+}
+
+.vosmoy{
+    height: 20%;
+    width: 20%;
+    margin-left: 20px
+}
+
+.page2{
+    background-image:  linear-gradient(rgb(0, 0, 0), rgba(64, 64, 64, 0.2));
+    height: 180vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page2-info{
+    color:white;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.info{
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.video{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.map{
+    color:black;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.mapa{
+    margin-top: 20px;
+    text-align: center;
+}
